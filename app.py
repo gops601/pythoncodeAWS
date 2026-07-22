@@ -7,9 +7,9 @@ app = Flask(__name__)
 bucket_name="student-photo-demo-gopu"
 
 db=pymysql.connect(
-host="RDS-ENDPOINT",
+host="mystudentdb.cvcwkw064xyz.us-east-1.rds.amazonaws.com",
 user="admin",
-password="Password@123",
+password="Admin123",
 database="studentdb"
 )
 
