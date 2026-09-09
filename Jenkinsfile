@@ -21,7 +21,7 @@ pipeline {
 
         stage('Run new container') {
             steps {
-                sh 'docker run -d --name $CONTAINER_NAME -p 8000:8000 $IMAGE_NAME'
+                sh 'docker run -d --name $CONTAINER_NAME -p 5020:5000 $IMAGE_NAME'
             }
         }
     }
